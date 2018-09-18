@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    style="@style/relative_style">
+
+    <ImageView
+        android:id="@+id/imageView"
+        app:srcCompat="@drawable/twitter"
+        style="@style/img_fb" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        app:srcCompat="@drawable/fb"
+        style="@style/img_twitter" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        app:srcCompat="@drawable/ig"
+        style="@style/img_insta" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="Facebook"
+        style="@style/text_fb" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:text="Twitter"
+        style="@style/text_twitter" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:text="Instagram"
+        style="@style/text_insta" />
+
+    <View style="@style/view_one" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:text="@string/quote_one"
+        style="@style/quote_one" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:text="@string/quote_two"
+        style="@style/quote_two" />
+
+    <LinearLayout style="@style/linear_one">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            app:srcCompat="@drawable/travel"
+            style="@style/img_one" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear_two">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            app:srcCompat="@drawable/eiffel"
+            style="@style/img_two" />
+
+        <View style="@style/view_two" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:text="EIFFEL TOWER"
+            style="@style/eiffel_text" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:text="@string/eiffel"
+            style="@style/eiffel_content" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
